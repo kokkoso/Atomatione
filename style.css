@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+#quote {
+    font-size: 32px;
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+#author {
+    font-size: 24px;
+    text-align: right;
+    max-width: 600px;
+}
+
+#button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
